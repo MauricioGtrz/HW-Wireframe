@@ -8,19 +8,37 @@ body {
 header,nav,footer {
     background-color: #ebebeb;
     text-align: center;
-    padding: 50px 100px;
+    height: 120px;
     color: #777;
-    width: 60%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    clear: both;
+}
+
+div {
+    height: 240px;
+    color: #777;
+    width: 70%;
     margin-right: auto;
     margin-left: auto;
 }
 
 section {
     background-color: #ebebeb;
+    height: 100%;
     color: #777;
     text-align: center;
+    width: 55%;
     float: left;
-    width: 30%;
-    height: 250px;
-    
+    margin-right: auto;
+}
+
+aside {
+    background-color: #ebebeb;
+    height: 100%;
+    color: #777;
+    text-align: center;
+    width: 42%;
+    float: right;
 }
